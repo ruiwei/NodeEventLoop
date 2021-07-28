@@ -1,7 +1,7 @@
 /*
+    Function to Calculate Pi
     1 - 1 / 3 + 1 / 5 - 1 / 7 + 1 / 9 ... * 4
 */
-
 function pi() {
     let mol = 1
     let t = 0
@@ -45,6 +45,8 @@ export function byPartition(callback: (result) => void) {
 
 /*
     Worker
+    Offload
+    Cons: 
 */
 import * as workerpool from 'workerpool'
 const pool = workerpool.pool()
