@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "isBackground": false,
+    "tasks": [
+        {
+            "label": "ts",
+            "type": "shell",
+            "command": "tsc",
+            "args": [
+                "-w",
+                "-p",
+                "."
+            ],
+            "problemMatcher": "$tsc",
+            "group": "build"
+        }
+    ]
+}

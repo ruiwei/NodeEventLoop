@@ -1,0 +1,18 @@
+{
+    "version": "0.1.0",
+    "showOutput": "always",
+    "isBackground": false,
+    "isShellCommand": true,
+    "tasks": [
+        {
+            "taskName": "ts",
+            "suppressTaskName": true,
+            "isBuildCommand": true,
+            "command": "tsc",
+            "args": [
+                "-w", "-p", "."
+            ],
+            "problemMatcher": "$tsc"
+        }
+    ]
+}

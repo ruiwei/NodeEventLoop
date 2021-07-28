@@ -1,0 +1,21 @@
+{
+  "name": "node_event_loop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.9",
+    "@types/express": "^4.17.13",
+    "@types/node": "^12.12.34",
+    "@types/workerpool": "^6.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.3.1",
+    "workerpool": "^6.1.5"
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.js": {
+            "when": "$(basename).ts"
+        },
+        "**/*?.js": {
+            "when": "$(basename).tsx"
+        },        
+        "**/*.js.map": true 
+    },
+    "workbench.colorCustomizations": {},
+    "cSpell.words": [
+        "list",
+        "notif",
+        "nuid",
+        "ratelimit",
+        "ratelimiter"
+    ],
+    "cSpell.ignoreWords": [
+        "workerpool"
+    ]
+}
